@@ -63,11 +63,11 @@ app.post("/", async (req, res) => {
   }
 });
 
-app.post("/", async (req, res) => {
-  // get the data from the form
-  const mongoURI = req.body.myuri; // Capture the submitted MongoDB URI
-  console.log("Received MongoDB URI: ", mongoURI); 
-})
+// app.post("/", async (req, res) => {
+//   // get the data from the form
+//   const mongoURI = req.body.myuri; // Capture the submitted MongoDB URI
+//   console.log("Received MongoDB URI: ", mongoURI); 
+// })
 
 app.listen(port, () => {
   console.log(`Server is running on port: ${port}`);
