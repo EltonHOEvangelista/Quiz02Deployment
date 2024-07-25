@@ -51,7 +51,7 @@ app.post("/", async (req, res) => {
 
     const newStudent = new Student({
       myName,
-      mySID,
+      mySID
     });
 
     await newStudent.save();
